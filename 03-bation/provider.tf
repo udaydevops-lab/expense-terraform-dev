@@ -7,7 +7,7 @@ terraform {
   }
   backend "s3" {
     bucket = "expense-prajai-bucket-dev"
-    key    = "expense-terraform-vpc-dev"
+    key    = "expense-terraform-bation-dev"
     region = "us-east-1"
     dynamodb_table = "prajai-locking-table-dev"
   }
